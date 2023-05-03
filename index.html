@@ -1,71 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Jiwoo Park</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono|Noto+Sans+Korean|Open+Sans">
+    </head>
+    <body>
+        <!-- Navigation Menu -->
+        <nav>
+            <div class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_me.html">About Me</a></li>
+                    <div class="dropdown">
+                        <li class="drop-proj"><a href="projects.html">Projects</a></li>
+                        <div class="dropdown-content">
+                            <a href="projects.html">All</a>
+                            <a href="319H.html">PCB Space Invaders</a>
+                            <a href="302H.html">Solar Powered Motor Generator</a>
+                            <a href="RAS.html">Robots</a>
+                            <a href="misc.html">In Progress</a>
+                        </div>
+                    </div>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home">
-      <div class="section-inner">
-        <img src="images/Profile1.jpg" class="profile-img">
-        <h1>Welcome to Jiwoo's Website!</h1>
-        <p>I am an Honors Electrical and Computer Engineering student from UT Austin.
-          <br>I am passionate about exploring new fields, contributing to the community, and creative activities.
-          <br>From engineering to art (especially music), there are different ways I make my passions to become real
-          <br>-- which are introduced here!
-          <br>Welcome to my website: a portfolio, blog, and WebDev project.
-        </p>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="section-inner">
-        <h2>Current and Past Projects</h2>
-        <p>
-          Click <a href="projects.html">Projects</a> to see current and past projects.
-        </p>
-        <h2>Organizations</h2>
-        <ul>
-          <li><a href="https://www.utinclab.com/">INC Lab</a></li>
-          <li><a href="https://ras.ece.utexas.edu/">IEEE Robotics and Automation Society</a></li>
-          <li><a href="https://ras.ece.utexas.edu/about/robomaster.html">UT Austin Robomaster - Stampede</a></li>
-          <li><a href="https://utexas.campuslabs.com/engage/organization/texasewh">Texas Engineering World Health</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="section-inner">
-        <h2>Contact Me!</h2>
-        <p>You can find me through:</p>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/jiwoooop/">LinkedIn</a></li>
-          <li><a href="https://github.com/jiwoop">GitHub</a></li>
-        </ul>
-        <p>Or, you can <a href="mailto:jiwooo.park04@gmail.com">send me an email</a>.</p>
-    </section>
-
-  </main>
-  
-  <footer>
-    © Copyright Jiwoo Park, 2023
-  </footer>
-
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="text">
+                    <div class="text_1">Hello, I'm</div>
+                    <div class="text_2">Jiwoo Park</div>
+                    <div class="text_3">Electrical & Computer Engineer</div>
+                    <div class="text_4">@ UT Austin</div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
