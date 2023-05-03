@@ -1,0 +1,19 @@
+h1 {
+    padding-top: 50px;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: #2C3333;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
