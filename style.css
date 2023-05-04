@@ -1,4 +1,4 @@
-/* Navigation Menu CSS */
+ /* Navigation Menu CSS */
 nav {
     position: fixed;
     width: 100%;
@@ -12,7 +12,7 @@ nav .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: center;
+    /* text-align: center; */
 }
 
 nav .navbar .menu {
@@ -21,7 +21,6 @@ nav .navbar .menu {
 
 nav .navbar .menu li {
     margin-right: 50px;
-    display: inline;
     list-style: none;
 }
 
@@ -54,6 +53,16 @@ nav .navbar .menu a {
 
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
+
+/* Navbar icons */
+.navbar .media-icons {
+    padding-right: 30px;
+}
+.navbar .media-icons a{
+    font-size: 30px;
+    margin: 20px;
+    color: #F45050;
+}
 
 /* Home section CSS */
 
