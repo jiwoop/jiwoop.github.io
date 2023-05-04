@@ -1,5 +1,11 @@
-vody {
+body {
+    background-color: #F0F0F0;
+    text-align: center;
     text-decoration: none;
+}
+
+.overview {
+    padding-top: 100px;
 }
 
 h1 {
@@ -12,4 +18,8 @@ h2 {
 
 p {
     font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
