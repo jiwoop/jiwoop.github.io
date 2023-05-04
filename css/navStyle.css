@@ -1,0 +1,66 @@
+ /* Navigation Menu CSS */
+ nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    font-family: 'Poppins', 'Courier New', 'Courier', 'Monospace';
+    font-size: 20px;
+    background-color: #F0F0F0;
+}
+
+nav .navbar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .navbar .menu {
+    display: flex;
+}
+
+nav .navbar .menu li {
+    margin-right: 50px;
+    list-style: none;
+}
+
+nav .navbar .menu a {
+    text-decoration: none;
+    color: #3C486B;
+}
+
+/* Dropdown menu for projects */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F1F1F1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: #3C486B;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Navbar icons */
+.navbar .media-icons {
+    padding-right: 30px;
+}
+.navbar .media-icons a{
+    font-size: 30px;
+    margin: 20px;
+    color: #F45050;
+}

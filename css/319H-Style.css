@@ -1,5 +1,11 @@
-vody {
+body {
+    background-color: #F0F0F0;
+    text-align: center;
     text-decoration: none;
+}
+
+.overview {
+    padding-top: 100px;
 }
 
 h1 {
