@@ -64,7 +64,14 @@ nav .navbar .menu a {
     color: #F45050;
 }
 
+
+/* body */
+body {
+    margin: 0;
+}
+
 /* Home section CSS */
+
 
 .home {
     height: 100vh;
