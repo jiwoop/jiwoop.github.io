@@ -2,11 +2,13 @@ body {
     margin: 0;
     background-color: #F0F0F0;
     text-align: center;
-    text-decoration: none;
 }
 
 .overview {
+    width: 70%;
     padding-top: 100px;
+    text-align: center;
+    display: inline-block;
 }
 
 h1 {
@@ -28,4 +30,12 @@ p {
 a {
     text-decoration: none;
     color: #3C486B;
+}
+
+a:hover {
+    color: #F45050;
+}
+
+#list {
+    text-align: left;
 }

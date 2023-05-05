@@ -29,6 +29,10 @@ nav .navbar .menu a {
     color: #3C486B;
 }
 
+nav .navbar .menu a:hover {
+    color: #F45050;
+}
+
 /* Dropdown menu for projects */
 .dropdown {
     position: relative;
@@ -63,4 +67,8 @@ nav .navbar .menu a {
     font-size: 30px;
     margin: 20px;
     color: #F45050;
+}
+
+.navbar .media-icons a:hover {
+    color: #3C486B;
 }
