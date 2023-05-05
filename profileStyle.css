@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #F0F0F0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.description {
+    width: 70%;
+    padding-top: 100px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.description .child {
+    margin: 2rem;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#education {
+    color: darkslategrey;
+}
+
+#bio {
+    text-align: left;
+}
+
+#image {
+    margin: auto;
+}
