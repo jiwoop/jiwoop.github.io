@@ -5,26 +5,22 @@ body {
 }
 
 .overview {
-    width: 70%;
+    width: 60%;
     padding-top: 100px;
     text-align: center;
     display: inline-block;
 }
 
-h1 {
+.list {
+    text-align: left;
+}
+
+h1, h2, h3, h4, p, ul {
     font-family: 'Poppins', sans-serif;
 }
 
-h2 {
-    font-family: 'Poppins', sans-serif;
-}
-
-h3 {
-    font-family: 'Poppins', sans-serif;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
+li {
+    margin: 0 0 5px 0;
 }
 
 a {
@@ -34,8 +30,4 @@ a {
 
 a:hover {
     color: #F45050;
-}
-
-#list {
-    text-align: left;
 }
