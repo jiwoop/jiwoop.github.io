@@ -7,3 +7,7 @@ description: "Needed somewhere to hold my thoughts and projects that I wanted pe
 
 # Build settings
 remote_theme: jekyll/minima
+
+# Themes
+minima:
+  skin: dark
