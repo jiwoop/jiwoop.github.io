@@ -1,0 +1,9 @@
+# Site settings
+title: "Jiwoo's RAM"
+author:
+  name: Jiwoo Park
+  email: jiwooo.park04@gmail.com
+description: "Needed somewhere to hold my thoughts and projects that I wanted people to know."
+
+# Build settings
+remote_theme: jekyll/minima
